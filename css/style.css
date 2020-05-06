@@ -1,0 +1,592 @@
+/*inicio de Css detallado*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #0f0d21;
+  margin: 0px;
+  color: white;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 3rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  background-color: black;
+  margin-bottom: 10px;
+}
+
+header .imglogo {
+  width: 100%;
+}
+
+header .imglogo .logo {
+  width: 80%;
+  margin: 4px 0px 0px 10px;
+  padding: 0px 25px 0px 00px;
+  -webkit-transition: width .5s, height .5s;
+  transition: width .5s, height .5s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  border-right: 2px solid orange;
+}
+
+header .imglogo .logo:hover {
+  width: 85%;
+}
+
+header .menu {
+  width: auto;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  margin-top: .15rem;
+}
+
+header .menu a {
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+header .menu ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+header .menu ul li {
+  display: inline-block;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 100%;
+  padding: 10px 45px 12px 45px;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  -webkit-transition: background .15s;
+  transition: background .15s;
+}
+
+header .menu ul li:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.233);
+}
+
+header .menu ul li:hover ul {
+  display: block;
+}
+
+header .menu ul li ul {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.86);
+  left: 0px;
+  top: 2.7rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .menu ul li ul li {
+  width: 100%;
+}
+
+.contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#activo {
+  color: orange;
+}
+
+section {
+  background-color: #0f0d21;
+  width: 100%;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  background-color: none;
+}
+
+.red {
+  width: 25px;
+  height: 25px;
+  margin: auto;
+}
+
+ol {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+ul li {
+  color: white;
+}
+
+ol li {
+  color: white;
+}
+
+h1 {
+  color: orange;
+  font-size: auto;
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  color: #acee31;
+  font-family: 'Lato', sans-serif;
+}
+
+h3 {
+  color: orange;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  color: white;
+}
+
+/* Fin de Css general e inicio de Css especificos en paginas */
+/* Pagina de Principal*/
+.imgPrincipal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.imgPrincipal .imgIndex1 {
+  position: absolute;
+  margin-top: 2%;
+  width: 100%;
+}
+
+.imgPrincipal .imgIndex1 .img1index .img1 {
+  width: 70%;
+  position: absolute;
+  margin-left: 15%;
+}
+
+.imgPrincipal .textindex {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.imgPrincipal .textindex p {
+  color: white;
+  font-size: 200%;
+  background-color: black;
+  margin: auto;
+  width: 70%;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.imgPrincipal .botonindex {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  margin-top: 30%;
+}
+
+.imgPrincipal .botonindex .boton1 {
+  font-size: 125%;
+  margin-left: 5%;
+  color: white;
+  background-color: red;
+}
+
+.imgPrincipal .botonindex .boton2 {
+  font-size: 125%;
+  margin-right: 5%;
+  color: white;
+  background-color: orangered;
+  margin-left: 5%;
+}
+
+.imgPrincipal .imgIndex2 {
+  -webkit-filter: blur(8px);
+          filter: blur(8px);
+  position: relative;
+}
+
+.imgPrincipal .imgIndex2 .img2 {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* fin de Pagina de principal*/
+/* Pagina de Cocteles*/
+.cocteles ul {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.cocteles .refrescantes {
+  text-align: center;
+}
+
+.cocteles .refrescantes #tiposcocteles {
+  font-size: 30px;
+}
+
+.cocteles .coctelesRefrescantes {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "mojito caipirinha";
+  list-style-position: inside;
+  grid-column-gap: 10px;
+}
+
+.cocteles .coctelesRefrescantes .mojito {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: mojito;
+  text-align: center;
+  background-color: black;
+  margin: 10px 1px 10px 5px;
+}
+
+.cocteles .coctelesRefrescantes .caipirinha {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: caipirinha;
+  text-align: center;
+  background-color: black;
+  margin: 10px 5px 10px 1px;
+}
+
+.cocteles .imgCocteles {
+  width: 70%;
+  margin: auto;
+}
+
+.cocteles #imgCocteles {
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.cocteles .agitados {
+  text-align: center;
+}
+
+.cocteles .agitados #tiposcocteles {
+  font-size: 30px;
+}
+
+.cocteles .coctelesagitados {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "between whiskySour";
+  list-style-position: inside;
+  grid-column-gap: 10px;
+}
+
+.cocteles .coctelesagitados .between {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: between;
+  text-align: center;
+  background-color: black;
+  margin: 10px 1px 10px 5px;
+}
+
+.cocteles .coctelesagitados .between #imgBetween {
+  width: 100%;
+}
+
+.cocteles .coctelesagitados .whiskySour {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: whiskySour;
+  text-align: center;
+  background-color: black;
+  margin: 10px 5px 10px 1px;
+}
+
+.cocteles .coctelesagitados .whiskySour #imgWhiskysour {
+  width: 100%;
+}
+
+.cocteles .instrucciones ul {
+  padding-left: 0px;
+}
+
+.cocteles .instrucciones ol {
+  padding-left: 0px;
+}
+
+/* fin de Pagina de cocteles*/
+/* Pagina de Eventos*/
+.articulos {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+      grid-template-areas: "art art-img" "art-img2 art2" "art3 art-img3";
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  -webkit-column-gap: 1%;
+          column-gap: 1%;
+  text-align: justify;
+}
+
+.articulos .art {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: art;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.articulos .art .titulo-art {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.articulos .art-img {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: art-img;
+  width: 100%;
+}
+
+.articulos .art-img .imgart {
+  width: 100%;
+}
+
+.articulos .art2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: art2;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.articulos .art2 .titulo-art {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.articulos .art-img2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: art-img2;
+  width: 100%;
+}
+
+.articulos .art-img2 .imgart2 {
+  width: 100%;
+}
+
+.articulos .art3 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: art3;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.articulos .art3 .titulo-art {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.articulos .art-img3 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: art-img3;
+  width: 100%;
+}
+
+.articulos .art-img3 .imgart3 {
+  width: 100%;
+}
+
+/* Pagina de Licores*/
+.licores {
+  margin: auto;
+  width: 90%;
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.licores p {
+  color: black;
+  text-align: center;
+}
+
+.licores .card-img-top {
+  width: 90%;
+  margin: auto;
+}
+
+.licores .text-muted {
+  color: #ff7b00 !important;
+  font-weight: 600;
+}
+
+/* fin de Pagina de licores*/
+/* Pagina de cursos*/
+.cajaFormulario {
+  width: 100%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.cajaFormulario #cursosFechas li {
+  color: white;
+  list-style: none;
+  margin-top: 5px;
+}
+
+.cajaFormulario .postulate {
+  margin-top: 10px;
+}
+
+.cajaFormulario .fechasdeCursos {
+  text-align: center;
+}
+
+.tiposCursos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.tiposCursos .cursos {
+  margin-right: 10px;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.562);
+  width: 30%;
+  padding-bottom: 2%;
+}
+
+.tiposCursos .cursos .cursosImg {
+  width: 300px;
+  height: 430px;
+}
+
+/* fin de Pagina de cursos*/
+/* Pagina de contacto*/
+#redes {
+  display: block;
+  text-align: center;
+}
+
+#redes .redesContacto {
+  width: 100px;
+  height: 100px;
+  margin: 0px 10px 20px 10px;
+}
+
+fieldset {
+  background-color: #1c0d3d;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+fieldset .sexo {
+  display: block;
+  padding: 10px;
+}
+
+fieldset .edad {
+  display: block;
+  margin: 10px;
+}
+
+fieldset .nombre {
+  display: block;
+  margin: 10px;
+}
+
+fieldset .nombre #nombre_apellido {
+  display: block;
+}
+
+fieldset .correo {
+  display: block;
+  margin: 10px;
+}
+
+fieldset .terminos a {
+  text-decoration: none;
+  color: yellow;
+}
+
+fieldset .boton {
+  display: block;
+  margin: 10px;
+}
+
+fieldset .escribenos .mensaje {
+  display: block;
+}
+
+/* fin de Pagina de contacto*/
+/* fin de Css*/
+/*# sourceMappingURL=style.css.map */
