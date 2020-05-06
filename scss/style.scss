@@ -197,6 +197,12 @@ p{
             margin-left: 5%;
             color: white;
             background-color: red;
+            transition: font-size .5s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+
+            &:hover{
+                font-size: 150%;}
         }
         .boton2{
             font-size: 125%;
@@ -204,6 +210,12 @@ p{
             color: white;
             background-color: rgb(255, 196, 0);
             margin-left: 5%;
+            transition: font-size .5s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+
+            &:hover{
+                font-size: 150%;}
         }
     }
 

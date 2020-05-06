@@ -227,6 +227,16 @@ p {
   margin-left: 5%;
   color: white;
   background-color: red;
+  -webkit-transition: font-size .5s;
+  transition: font-size .5s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+.imgPrincipal .botonindex .boton1:hover {
+  font-size: 150%;
 }
 
 .imgPrincipal .botonindex .boton2 {
@@ -235,6 +245,16 @@ p {
   color: white;
   background-color: #ffc400;
   margin-left: 5%;
+  -webkit-transition: font-size .5s;
+  transition: font-size .5s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+.imgPrincipal .botonindex .boton2:hover {
+  font-size: 150%;
 }
 
 .imgPrincipal .imgIndex2 {
