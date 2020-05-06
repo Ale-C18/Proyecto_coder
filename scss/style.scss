@@ -22,16 +22,16 @@ header{
         width: 100%;
 
     .logo{
-        width: 80%;
-        margin: 4px 0px 0px 10px;
-        padding: 0px 25px 0px 00px;
+        width: 58px;
+        margin-left: 5px;
+        padding: 0px 10px 0px 0px;
         transition: width .5s, height .5s;
         transition-timing-function: ease;
         transition-delay: 0s;
         border-right: 2px solid orange;
 
         &:hover{
-            width:85%}
+            width:61px}
         }
     }
 
